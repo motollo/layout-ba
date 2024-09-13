@@ -22,7 +22,6 @@ body{
 }
 header{
     height: 200px;
-    background-color: red;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,6 +39,15 @@ header{
 main{
     flex-grow: 1;
     background-color: white;
+    display: flex;
+}
+.conteudo{
+    width: 50%;
+    background-color: red;
+}
+.destaque{
+    width: 50%;
+    background-color: lightgray;
 }
 footer{
     height: 100px;
