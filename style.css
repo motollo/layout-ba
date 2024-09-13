@@ -27,9 +27,13 @@ header{
     align-items: center;
 }
 .logo{
-    height: 64px;
-    width: 64px;
-    background-color: lightblue;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    background-image: url(./splogo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .menu ul{
     display: flex;
@@ -43,7 +47,58 @@ main{
 }
 .conteudo{
     width: 50%;
-    background-color: red;
+    padding-right: 128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.destaque{
+    background-image: url(./3d8d4a8fc4a47ddf7aaa007360d31aea.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.conteudo h1{
+    font-size: 80px;
+}
+.conteudo p{
+    font-size: 48px;
+}
+.conteudo button{
+    height: 64px;
+    width: 300px;
+    font-size: 32px;
+    background-color: black;
+    color: white;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+}
+.social div{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: black;
+}
+.social div.site{
+    background-image: url(./images.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.social div.instagram{
+    background-image: url(./Instagram-Icon.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.social div.youtube{
+    background-image: url(./332673-P9UDWM-638.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 .destaque{
     width: 50%;
@@ -51,5 +106,8 @@ main{
 }
 footer{
     height: 100px;
-    background-color: black;
+    display: flex;
+    justify-content: center;
+    color: gray;
+    align-items: center;
 }
