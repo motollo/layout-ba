@@ -19,6 +19,7 @@ body{
     display: flex;
     flex-direction: column;
     padding-inline: 80px;
+    background-color: gray;
 }
 header{
     height: 200px;
@@ -51,6 +52,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: gray;
 }
 .destaque{
     background-image: url(./3d8d4a8fc4a47ddf7aaa007360d31aea.jpg);
